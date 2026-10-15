@@ -1,0 +1,16 @@
+{
+  "dataDirectory": "data/fullstudy/processed",
+  "partition": "tuning",
+  "wSize": 1000000,
+  "queryRatePerSecond": 100000.0,
+  "seed": 240001,
+  "phases": [
+    {
+      "name": "P1",
+      "updateRatePerSecond": 0.0,
+      "seconds": 30.0,
+      "hitRate": 0.01
+    }
+  ],
+  "name": "pilot_fullstudy_20261015_tune_W1m"
+}

@@ -1,0 +1,15 @@
+{
+  "wSize": 100,
+  "queryRatePerSecond": 2000.0,
+  "seed": 240001,
+  "phases": [
+    {
+      "updateRatePerSecond": 0.0,
+      "name": "P1",
+      "seconds": 1.0,
+      "hitRate": 0.01
+    }
+  ],
+  "partition": "measurement",
+  "name": "scheduled_smoke_v3_E3_updates0"
+}

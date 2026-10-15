@@ -1,0 +1,20 @@
+{
+  "purpose": "Pilot using tuning partition only. Short durations qualify software and output shape; they do not establish steady-state scientific performance.",
+  "measureSeconds": 3,
+  "methods": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6"
+  ],
+  "orderSeed": 240001,
+  "seriesId": "pilot_v1",
+  "warmupSeconds": 1,
+  "replicates": 1,
+  "configPaths": [
+    "configs/pilot-static.json",
+    "configs/pilot-updates.json"
+  ]
+}

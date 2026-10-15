@@ -1,0 +1,12 @@
+{
+  "chain_id": 1,
+  "block_from": 20000000,
+  "block_to": 20021999,
+  "endpoint": "https://eth-mainnet.g.alchemy.com",
+  "retrieval_utc": "2026-10-15T18:46:47.5086958+00:00",
+  "fields": [
+    "transaction.from",
+    "transaction.to"
+  ],
+  "api_reference": "https://ethereum.github.io/execution-apis/api/methods/eth_getBlockByNumber/"
+}

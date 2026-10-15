@@ -1,0 +1,18 @@
+{
+  "configPaths": [
+    "configs/pilot_fullstudy_20261015_tune_W1m.json",
+    "configs/pilot_fullstudy_20261015_validate_W1m.json"
+  ],
+  "warmupSeconds": 30.0,
+  "replicates": 1,
+  "measureSeconds": 30.0,
+  "purpose": "Short full-size tuning and validation partition pilot for warmup stability and memory; not part of the final measurement series.",
+  "methods": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+  ],
+  "orderSeed": 240001,
+  "seriesId": "pilot_fullstudy_20261015"
+}

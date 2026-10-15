@@ -1,0 +1,17 @@
+{
+  "final_fp_count": 0,
+  "frozen_final_config_sha256": "49bdf9ca420849f799816af2a71a56e592398c40db5605545d97e24e3ff13ddd",
+  "tests_failed": 0,
+  "qualification_method_runs": 180,
+  "full_grid_preflight": "configs/full-study-preflight.json",
+  "failed_directories": 0,
+  "tests_passed": 30,
+  "successful_directories": 441,
+  "fn_count": 0,
+  "target_framework": "net10.0",
+  "status": "PASS",
+  "full_scientific_grid_executed": false,
+  "qualification_series": "qualification_v4",
+  "build_warnings": 0,
+  "reproduced_binary_csv_zstd_files": 50
+}

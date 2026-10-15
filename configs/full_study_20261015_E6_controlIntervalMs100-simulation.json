@@ -1,0 +1,40 @@
+{
+  "phases": [
+    {
+      "seconds": 60.0,
+      "name": "P1",
+      "hitRate": 0.001,
+      "updateRatePerSecond": 0.0
+    },
+    {
+      "seconds": 60.0,
+      "name": "P2",
+      "hitRate": 0.5,
+      "updateRatePerSecond": 0.0
+    },
+    {
+      "seconds": 60.0,
+      "name": "P3",
+      "hitRate": 0.001,
+      "updateRatePerSecond": 1000.0
+    },
+    {
+      "seconds": 60.0,
+      "name": "P4",
+      "hitRate": 0.5,
+      "updateRatePerSecond": 1000.0
+    },
+    {
+      "seconds": 60.0,
+      "name": "P1",
+      "hitRate": 0.001,
+      "updateRatePerSecond": 0.0
+    }
+  ],
+  "dataDirectory": "data/fullstudy/processed",
+  "wSize": 100000,
+  "name": "full_study_20261015_E6_controlIntervalMs100",
+  "seed": 240001,
+  "queryRatePerSecond": 100000.0,
+  "partition": "measurement"
+}

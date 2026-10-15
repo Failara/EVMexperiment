@@ -1,0 +1,12 @@
+{
+  "fields": [
+    "transaction.from",
+    "transaction.to"
+  ],
+  "api_reference": "https://ethereum.github.io/execution-apis/api/methods/eth_getBlockByNumber/",
+  "chain_id": 1,
+  "retrieval_utc": "2026-10-15T14:22:32.8657218+00:00",
+  "block_to": 20000019,
+  "endpoint": "https://ethereum-rpc.publicnode.com",
+  "block_from": 20000000
+}

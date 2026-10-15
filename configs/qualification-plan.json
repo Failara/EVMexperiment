@@ -1,0 +1,18 @@
+{
+  "methods": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6"
+  ],
+  "orderSeed": 240004,
+  "replicates": 30,
+  "e0Replicates": 1,
+  "seriesId": "qualification_v4",
+  "purpose": "Predeclared short software qualification: continuous real-address five-profile schedule, 100 addresses in W, 2000 queries/s, 0.25s warmup and 1s measurement, 30 independent child processes per M1-M6. This does not replace the full scientific grid.",
+  "configPaths": [
+    "configs/final-experiment.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "notExecuted": 0,
+    "executed": 30,
+    "total": 30,
+    "failed": 0,
+    "passed": 30
+  },
+  "source_trx_sha256": "5a7b6044f7aab047e19cfae27901ea5e132a571d89329529e2f0a746e436ff41",
+  "test_framework": "xUnit",
+  "target_framework": "net10.0",
+  "core_assembly_sha256": "84ecdb88ec6947c45e9cacc8256cb3ab6abb090acf887b4a9e718641ce5aed38",
+  "data_assembly_sha256": "f56e595d0597f8a456c24dada54fa2b23b91318a15f9035b367077d61106ef89",
+  "test_assembly_sha256": "fa7ed7298beab2b28bde72fe2006a9dbaa776a0b1f0e0f2a02597eb243efabe0"
+}

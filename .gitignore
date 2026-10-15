@@ -1,0 +1,40 @@
+### .NET build output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+### Local restore and SDK state
+.nuget/
+.dotnet-home/
+
+### Test output
+**/TestResults/
+*.trx
+
+### OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Local QA scratch
+_qa/
+
+### Generated experiment data
+/data/raw/block_*.json
+/data/raw/block_*.json.gz
+/data/raw/*.tmp
+/data/raw/events.jsonl.zst
+
+/data/processed/*.bin
+/data/processed/*.bin.gz
+/data/processed/*.zst
+/data/fullstudy/processed/*.bin
+/data/fullstudy/processed/*.bin.gz
+/data/fullstudy/processed/*.zst
+
+/data/watchlists/*.bin
+/data/updates/*.csv
+/results/raw/
+/artifacts/*.zip

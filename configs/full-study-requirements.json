@@ -1,0 +1,98 @@
+{
+  "status": "requirements_reference_implemented_by_scripts/new-study.ps1",
+  "replicates": 30,
+  "methods": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6"
+  ],
+  "warmupSecondsExample": 30,
+  "measureSecondsExample": 300,
+  "baselineParametersMustBeFrozenAfterPilot": true,
+  "E0": {
+    "operations": [
+      "H",
+      "Fd",
+      "Fs",
+      "Hd",
+      "switch",
+      "rebuild"
+    ],
+    "completedScope": "one short calibration"
+  },
+  "E1": {
+    "watchlistSizes": [
+      1000,
+      10000,
+      100000,
+      1000000,
+      5000000
+    ],
+    "lastPointConditionalOnMemory": true
+  },
+  "E2": {
+    "targetHitRates": [
+      0,
+      0.0001,
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E3": {
+    "updateRatesPerSecond": [
+      0,
+      10,
+      100,
+      1000,
+      10000
+    ],
+    "deleteRatiosMustBePredeclared": true,
+    "requiresPacedReplayImplementation": false
+  },
+  "E4": {
+    "profiles": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P1"
+    ],
+    "profileDefinitionsAndDurationsMustBePredeclared": true,
+    "requiresContinuousProfileImplementation": false
+  },
+  "E5": {
+    "threads": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "includeLogicalCoreCount": true,
+    "excludeCountsAboveLogicalCores": true
+  },
+  "E6": {
+    "methods": [
+      "M4",
+      "M5",
+      "M6"
+    ],
+    "varyOneParameterAtATime": [
+      "controlIntervalMs",
+      "hysteresisIntervals",
+      "predictionHorizon",
+      "rebuildHorizon",
+      "switchMarginNs",
+      "rebuildMarginNs"
+    ],
+    "exactSensitivityPointsMustBePredeclared": true
+  }
+}

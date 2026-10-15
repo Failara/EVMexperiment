@@ -1,0 +1,36 @@
+{
+  "seed": 240001,
+  "partition": "measurement",
+  "source": "data/processed/measurement.bin",
+  "source_sha256": "d4ac7f86aae6dadfe808994e6460c98eaa3f9d8738aba4540260d477c72b1a81",
+  "generation": "Scheduled simulation resamples actual observed address/event pairs within one temporal partition. No synthetic address values. Updates occur before the first query at or after their timestamp, beginning at phase start. Query rate must be at least the update rate.",
+  "phases": [
+    {
+      "name": "P1",
+      "hitRate": 1,
+      "updateRatePerSecond": 0,
+      "seconds": 1,
+      "start_seconds": 0,
+      "query_count": 2000,
+      "update_count": 0,
+      "actual_hit_rate": 1
+    }
+  ],
+  "query_count": 2000,
+  "update_count": 0,
+  "actual_hit_rate": 1,
+  "files": [
+    {
+      "path": "data/processed/scheduled_smoke_v3_E2_hit1_queries.bin",
+      "sha256": "b7a80b31228eae042bcf7e18b5643cd04844d17fe5a50e21cdb851d65f6e0ae9"
+    },
+    {
+      "path": "data/watchlists/scheduled_smoke_v3_E2_hit1.bin",
+      "sha256": "73e6c87782b540a41056ede40dfd71b3601c9e37f992cfa1688d86468d00d55f"
+    },
+    {
+      "path": "data/updates/scheduled_smoke_v3_E2_hit1.csv",
+      "sha256": "b34bc48468cb7f16ec1912f038a447b3b952e7cf7be28041fc448fe8d46fee21"
+    }
+  ]
+}

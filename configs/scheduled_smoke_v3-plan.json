@@ -1,0 +1,37 @@
+{
+  "seriesId": "scheduled_smoke_v3",
+  "orderSeed": 240001,
+  "e0Replicates": 1,
+  "methodsByExperiment": {
+    "E6": [
+      "M4",
+      "M5",
+      "M6"
+    ]
+  },
+  "queryRatePerSecond": 2000.0,
+  "configPaths": [
+    "configs/scheduled_smoke_v3_E1_w100.json",
+    "configs/scheduled_smoke_v3_E2_hit0.json",
+    "configs/scheduled_smoke_v3_E2_hit0p5.json",
+    "configs/scheduled_smoke_v3_E2_hit1.json",
+    "configs/scheduled_smoke_v3_E3_updates0.json",
+    "configs/scheduled_smoke_v3_E3_updates10.json",
+    "configs/scheduled_smoke_v3_E4_P1-P2-P3-P4-P1.json",
+    "configs/scheduled_smoke_v3_E5_threads1.json",
+    "configs/scheduled_smoke_v3_E5_threads2.json",
+    "configs/scheduled_smoke_v3_E6_hysteresisIntervals1.json",
+    "configs/scheduled_smoke_v3_E6_hysteresisIntervals3.json"
+  ],
+  "purpose": "Reduced scheduled E1-E6 software smoke grid; not the full study.",
+  "methods": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6"
+  ],
+  "replicates": 1,
+  "warmupSeconds": 0.25
+}

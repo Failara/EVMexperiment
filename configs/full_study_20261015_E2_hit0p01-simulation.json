@@ -1,0 +1,16 @@
+{
+  "phases": [
+    {
+      "seconds": 300.0,
+      "name": "P1",
+      "hitRate": 0.01,
+      "updateRatePerSecond": 0.0
+    }
+  ],
+  "dataDirectory": "data/fullstudy/processed",
+  "wSize": 100000,
+  "name": "full_study_20261015_E2_hit0p01",
+  "seed": 240001,
+  "queryRatePerSecond": 100000.0,
+  "partition": "measurement"
+}

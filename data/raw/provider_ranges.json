@@ -1,0 +1,19 @@
+{
+  "chain_id": 1,
+  "block_from": 20000000,
+  "block_to": 20021999,
+  "ranges": [
+    {
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "block_from": 20000000,
+      "block_to": 20010500,
+      "note": "Original archive and resumed retrieval before the endpoint returned HTTP 403."
+    },
+    {
+      "endpoint": "https://eth-mainnet.g.alchemy.com/public",
+      "block_from": 20010501,
+      "block_to": 20021999,
+      "note": "Public read-only endpoint; the first saved block was checked before resuming the contiguous range."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "seed": 240001,
+  "partition": "tuning",
+  "w_size": 100,
+  "target_hit_rate": 0.01,
+  "initial_hit_rate": 0.009843659525188187,
+  "actual_hit_rate": 0.010422698320787493,
+  "query_count": 1727,
+  "update_count": 10,
+  "add_count": 4,
+  "remove_count": 6,
+  "files": [
+    {
+      "path": "data/processed/pilot-updates_queries.bin",
+      "sha256": "acd3042b334870db917d0baf5ddf1a2ae322f5ca0cc77d4ae37012ff0bce27cf"
+    },
+    {
+      "path": "data/watchlists/pilot-updates.bin",
+      "sha256": "bc7580f2292e752f9da1d11f2ee9b812c927863a6edb5d33ddf931b2a614bd91"
+    },
+    {
+      "path": "data/updates/pilot-updates.csv",
+      "sha256": "c73f87f093e4c5a12127b0def2b70a708caff760db8b13cfe9bc1f94d1422cf2"
+    }
+  ]
+}

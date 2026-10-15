@@ -1,0 +1,39 @@
+{
+  "wSize": 100,
+  "queryRatePerSecond": 2000.0,
+  "seed": 240001,
+  "phases": [
+    {
+      "updateRatePerSecond": 0.0,
+      "name": "P1",
+      "seconds": 0.2,
+      "hitRate": 0.001
+    },
+    {
+      "updateRatePerSecond": 0.0,
+      "name": "P2",
+      "seconds": 0.2,
+      "hitRate": 0.5
+    },
+    {
+      "updateRatePerSecond": 100.0,
+      "name": "P3",
+      "seconds": 0.2,
+      "hitRate": 0.001
+    },
+    {
+      "updateRatePerSecond": 100.0,
+      "name": "P4",
+      "seconds": 0.2,
+      "hitRate": 0.5
+    },
+    {
+      "updateRatePerSecond": 0.0,
+      "name": "P1",
+      "seconds": 0.2,
+      "hitRate": 0.001
+    }
+  ],
+  "partition": "measurement",
+  "name": "scheduled_smoke_v3_E6_hysteresisIntervals3"
+}

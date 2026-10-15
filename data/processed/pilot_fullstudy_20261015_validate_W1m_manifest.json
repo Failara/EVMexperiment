@@ -1,0 +1,36 @@
+{
+  "seed": 240001,
+  "partition": "validation",
+  "source": "data/fullstudy/processed/validation.bin",
+  "source_sha256": "d1a0fa78b0e3972e6bd1c3bcccf83a5b02a26b0efadc7146a3c95ff7ca5fa74a",
+  "generation": "Scheduled simulation resamples actual observed address/event pairs within one temporal partition. No synthetic address values. Updates occur before the first query at or after their timestamp, beginning at phase start. Query rate must be at least the update rate.",
+  "phases": [
+    {
+      "name": "P1",
+      "hitRate": 0.01,
+      "updateRatePerSecond": 0,
+      "seconds": 30,
+      "start_seconds": 0,
+      "query_count": 3000000,
+      "update_count": 0,
+      "actual_hit_rate": 0.01
+    }
+  ],
+  "query_count": 3000000,
+  "update_count": 0,
+  "actual_hit_rate": 0.01,
+  "files": [
+    {
+      "path": "data/processed/pilot_fullstudy_20261015_validate_W1m_queries.bin.gz",
+      "sha256": "4fdbfd1801bfb3823f50a693f159a220969ff5667059febe69dd9b8e19ac7cf2"
+    },
+    {
+      "path": "data/watchlists/pilot_fullstudy_20261015_validate_W1m.bin",
+      "sha256": "1b2fcea511cd7bb3a8d52ff82745c8d5f6d55126613163d232413f068b60c996"
+    },
+    {
+      "path": "data/updates/pilot_fullstudy_20261015_validate_W1m.csv",
+      "sha256": "b34bc48468cb7f16ec1912f038a447b3b952e7cf7be28041fc448fe8d46fee21"
+    }
+  ]
+}

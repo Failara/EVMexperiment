@@ -1,0 +1,6 @@
+{
+  "available_distinct_addresses": 3168,
+  "required_distinct_addresses_more_than": 1000000,
+  "reason": "The grid needs more than 1000000 distinct real addresses; archive has 3168. Import a larger contiguous archive before preparing this study.",
+  "status": "BLOCKED_BEFORE_MEASUREMENT"
+}

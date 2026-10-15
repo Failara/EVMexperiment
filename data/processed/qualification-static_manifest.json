@@ -1,0 +1,26 @@
+{
+  "seed": 240001,
+  "partition": "measurement",
+  "w_size": 100,
+  "target_hit_rate": 0.01,
+  "initial_hit_rate": 0.010121457489878543,
+  "actual_hit_rate": 0.010121457489878543,
+  "query_count": 3458,
+  "update_count": 0,
+  "add_count": 0,
+  "remove_count": 0,
+  "files": [
+    {
+      "path": "data/processed/qualification-static_queries.bin",
+      "sha256": "d4ac7f86aae6dadfe808994e6460c98eaa3f9d8738aba4540260d477c72b1a81"
+    },
+    {
+      "path": "data/watchlists/qualification-static.bin",
+      "sha256": "bb2f681fa4fda68c6278e24221543b786e5c8f256e53631675e92df5cddd9d65"
+    },
+    {
+      "path": "data/updates/qualification-static.csv",
+      "sha256": "b34bc48468cb7f16ec1912f038a447b3b952e7cf7be28041fc448fe8d46fee21"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "seed": 240001,
+  "partition": "measurement",
+  "w_size": 100,
+  "target_hit_rate": 0.01,
+  "initial_hit_rate": 0.010121457489878543,
+  "actual_hit_rate": 0.01098901098901099,
+  "query_count": 3458,
+  "update_count": 10,
+  "add_count": 4,
+  "remove_count": 6,
+  "files": [
+    {
+      "path": "data/processed/qualification-updates_queries.bin",
+      "sha256": "d4ac7f86aae6dadfe808994e6460c98eaa3f9d8738aba4540260d477c72b1a81"
+    },
+    {
+      "path": "data/watchlists/qualification-updates.bin",
+      "sha256": "bb2f681fa4fda68c6278e24221543b786e5c8f256e53631675e92df5cddd9d65"
+    },
+    {
+      "path": "data/updates/qualification-updates.csv",
+      "sha256": "a11431bf1936d4e3a1c4843390c3dacf3ba1c0c51f5972f808a1456013746dc1"
+    }
+  ]
+}
