@@ -1,0 +1,135 @@
+{
+  "source_directory": "E:\\EVMexperiment-study\\results\\raw\\pilot_max_unpaced_20261026\\PILOT_MAX\\W100k_p001_noUpdates_unpaced",
+  "runs": [
+    {
+      "method": "M1",
+      "replicate": 1,
+      "seed": 241101,
+      "throughput_per_second": 9255850.45719854,
+      "elapsed_ns": 30143097200,
+      "query_count": 279000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 93
+    },
+    {
+      "method": "M1",
+      "replicate": 2,
+      "seed": 241102,
+      "throughput_per_second": 8606279.396008542,
+      "elapsed_ns": 30326693800,
+      "query_count": 261000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 87
+    },
+    {
+      "method": "M1",
+      "replicate": 3,
+      "seed": 241103,
+      "throughput_per_second": 8250614.188642851,
+      "elapsed_ns": 30179571400,
+      "query_count": 249000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 83
+    },
+    {
+      "method": "M2",
+      "replicate": 1,
+      "seed": 241101,
+      "throughput_per_second": 8460188.411979074,
+      "elapsed_ns": 30141172700,
+      "query_count": 255000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 85
+    },
+    {
+      "method": "M2",
+      "replicate": 2,
+      "seed": 241102,
+      "throughput_per_second": 8623360.28786508,
+      "elapsed_ns": 30266623600,
+      "query_count": 261000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 87
+    },
+    {
+      "method": "M2",
+      "replicate": 3,
+      "seed": 241103,
+      "throughput_per_second": 6159409.940184248,
+      "elapsed_ns": 30197697800,
+      "query_count": 186000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 62
+    },
+    {
+      "method": "M3",
+      "replicate": 1,
+      "seed": 241101,
+      "throughput_per_second": 10085805.170564245,
+      "elapsed_ns": 30042222200,
+      "query_count": 303000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 101
+    },
+    {
+      "method": "M3",
+      "replicate": 2,
+      "seed": 241102,
+      "throughput_per_second": 10046727.528680995,
+      "elapsed_ns": 30159074100,
+      "query_count": 303000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 101
+    },
+    {
+      "method": "M3",
+      "replicate": 3,
+      "seed": 241103,
+      "throughput_per_second": 10013140.776692629,
+      "elapsed_ns": 30260235700,
+      "query_count": 303000000,
+      "fn_count": 0,
+      "final_fp_count": 0,
+      "dataset_passes": 101
+    }
+  ],
+  "medians_per_second": {
+    "M1": 8606279.396008542,
+    "M2": 8460188.411979074,
+    "M3": 10046727.528680995
+  },
+  "relative_differences_percent": {
+    "M3_vs_M1_percent": 16.737176036145307,
+    "M3_vs_M2_percent": 18.752999808556115,
+    "M2_vs_M1_percent": -1.6974929270507144
+  },
+  "verified_input_sha256": {
+    "E:\\EVMexperiment-study\\data\\processed\\pilot_max_unpaced_20261026_s241101_queries.bin.gz": "d69f8dd04eb8bea96cbbb3c4b61addb481344609783effee206e8de79fc6dabf",
+    "E:\\EVMexperiment-study\\data\\watchlists\\pilot_max_unpaced_20261026_s241101.bin": "522a2d99eecf20d994eec2a839592da9b2f8f1f86e9ca442991f3b95052278af",
+    "E:\\EVMexperiment-study\\data\\updates\\pilot_max_unpaced_20261026_s241101.csv": "b34bc48468cb7f16ec1912f038a447b3b952e7cf7be28041fc448fe8d46fee21",
+    "E:\\EVMexperiment-study\\data\\processed\\pilot_max_unpaced_20261026_s241102_queries.bin.gz": "81ecb3510e3631e9c18d5b9e3c380142b4d4e6a3f764ac90c7734aa1d931e683",
+    "E:\\EVMexperiment-study\\data\\watchlists\\pilot_max_unpaced_20261026_s241102.bin": "206cba62d05abf3b22fae69faad0bb1a91ec0d257632405afff1bde7ed806b68",
+    "E:\\EVMexperiment-study\\data\\updates\\pilot_max_unpaced_20261026_s241102.csv": "b34bc48468cb7f16ec1912f038a447b3b952e7cf7be28041fc448fe8d46fee21",
+    "E:\\EVMexperiment-study\\data\\processed\\pilot_max_unpaced_20261026_s241103_queries.bin.gz": "609c2b37a090f6cb0029e8b262658eca0022d80bd44de004eac5a3084b12bce7",
+    "E:\\EVMexperiment-study\\data\\watchlists\\pilot_max_unpaced_20261026_s241103.bin": "73af4850f1a896017fcf1e12a03f1297369f7fa4ca6fa1abdc7b7c6dd75ccd93",
+    "E:\\EVMexperiment-study\\data\\updates\\pilot_max_unpaced_20261026_s241103.csv": "b34bc48468cb7f16ec1912f038a447b3b952e7cf7be28041fc448fe8d46fee21"
+  },
+  "environment": [
+    ".NET 10.0.11",
+    "Microsoft Windows 10.0.26200",
+    "X64",
+    12,
+    true,
+    "0ed87136b5669c117f3b950fab8e41bb2d43d95d7502be865f8114e0d2db3ba0",
+    "e6d31b9407f136a17cd0dd42c0f013e3d4d7474dae419c561934b51bbb7f8ba7"
+  ],
+  "checks": "9 SUCCESS; parameters, seeds, zero FN/finalFP, interval query totals, throughput arithmetic, common environment, paired input SHA256 and actual file hashes verified"
+}

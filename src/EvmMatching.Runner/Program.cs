@@ -8,11 +8,12 @@ CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
 CultureInfo.CurrentUICulture = CultureInfo.InvariantCulture;
 try
 {
-    if (args.Length == 0) throw new ArgumentException("Commands: fetch <rpc> <from> <to> | normalize | prepare <partition> <name> <wSize> <hitRate> <updateRate> <seconds> <seed> | run <config> | run-one <config> | run-series <plan> | handoff");
+    if (args.Length == 0) throw new ArgumentException("Commands: fetch <rpc> <from> <to> | fetch-receipts <rpc> <from> <to> | normalize | prepare <partition> <name> <wSize> <hitRate> <updateRate> <seconds> <seed> | run <config> | run-one <config> | run-series <plan> | handoff");
     switch (args[0])
     {
         case "fetch": await Preparation.Fetch(args[1], long.Parse(args[2]), long.Parse(args[3])); break;
-        case "normalize": Preparation.Normalize(); break;
+        case "fetch-receipts": await Preparation.FetchReceipts(args[1], long.Parse(args[2]), long.Parse(args[3])); break;
+        case "normalize": Preparation.Normalize(args.Length > 1 ? args[1] : "data/processed"); break;
         case "calibrate": Calibration.Execute(args[1], args.Length > 2 ? int.Parse(args[2]) : 1, args.Length > 3 ? args[3] : "data/processed/tuning.bin"); break;
         case "simulate":
             var simulation = Files.ReadJson<SimulationPlan>(args[1]);

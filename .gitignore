@@ -24,6 +24,7 @@ _qa/
 ### Generated experiment data
 /data/raw/block_*.json
 /data/raw/block_*.json.gz
+/data/raw/receipts_*.json.gz
 /data/raw/*.tmp
 /data/raw/events.jsonl.zst
 
@@ -33,6 +34,7 @@ _qa/
 /data/fullstudy/processed/*.bin
 /data/fullstudy/processed/*.bin.gz
 /data/fullstudy/processed/*.zst
+/data/fullstudy/processed/*.jsonl.gz
 
 /data/watchlists/*.bin
 /data/updates/*.csv
